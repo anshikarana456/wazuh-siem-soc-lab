@@ -55,12 +55,35 @@ hydra -l anshika -P passwords.txt ssh://192.168.72.148
 Wazuh successfully detected multiple failed SSH login attempts and generated security alerts in the dashboard.
 Security alerts were visible in the Wazuh Dashboard under the Authentication events section.
 
-## Screenshots
+## Attack Demonstration
+
+### Kali Attacker Machine
+
+![Kali IP](screenshots/kali-ip.png)
+
+### SSH Service Running on Target
+
+![SSH Service](screenshots/ssh-service-running.png)
+
+### Password Wordlist
+
+![Password Wordlist](screenshots/password-wordlist.png)
 
 ### Hydra Brute Force Attack
 
 ![Hydra Attack](screenshots/hydra-attack.png)
 
-### Wazuh Detection Alert
+### Wazuh Alert Detection
 
 ![Wazuh Alert](screenshots/wazuh-alert.png)
+
+
+## Threat Detection Mapping (MITRE ATT&CK)
+
+The simulated attack in this lab aligns with the following MITRE ATT&CK technique:
+
+| Attack Technique | MITRE ID | Description |
+|-----------------|----------|-------------|
+| SSH Brute Force | T1110 | Attempting multiple password combinations to gain unauthorized access |
+
+Wazuh SIEM detects this behavior by monitoring authentication logs and identifying multiple failed login attempts.
