@@ -8,7 +8,7 @@ Security event monitoring
 Log analysis
 Real-time authentication monitoring
 Custom dashboard creation
-Lab Architecture
+Lab Architecture:
 
 Kali Linux (Attacker)
 ↓
@@ -20,14 +20,14 @@ Wazuh Manager & Indexer
 ↓
 Wazuh Dashboard (Security Monitoring)
 
-Tools Used
+Tools Used :
 Wazuh SIEM
 Kali Linux
 Hydra
 OpenSSH
 VMware
 Ubuntu Server
-Features
+Features :
 Detects successful SSH logins
 Detects failed SSH login attempts
 Detects invalid/non-existent user login attempts
