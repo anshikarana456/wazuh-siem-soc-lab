@@ -9,7 +9,8 @@ The lab includes:
 -Log analysis
 -Real-time authentication monitoring
 -Custom dashboard creation
--Lab Architecture:
+
+# Lab Architecture:
 
 Kali Linux (Attacker)
 ↓
@@ -21,7 +22,7 @@ Wazuh Manager & Indexer
 ↓
 Wazuh Dashboard (Security Monitoring)
 
-Tools Used :
+## Tools Used :
 -Wazuh SIEM
 -Kali Linux
 -Hydra
@@ -29,7 +30,7 @@ Tools Used :
 -VMware
 -Ubuntu Server
 
-Features :
+## Features :
 -Detects successful SSH logins
 -Detects failed SSH login attempts
 -Detects invalid/non-existent user login attempts
@@ -39,7 +40,7 @@ Features :
 -Visualizes authentication events using pie charts, bar charts, and tables
 
 # Attack Simulation
-SSH Brute Force Attack
+## SSH Brute Force Attack
 
 The Hydra tool was used from Kali Linux to simulate a brute force attack against the SSH service running on the monitored Ubuntu server.
 
@@ -50,18 +51,18 @@ Successful SSH Login Detection
 
 A valid SSH login was performed from Kali Linux to the Ubuntu server using correct credentials. Wazuh successfully generated alerts for successful SSH authentication events.
 
-Command used:
+## Command used:
 
 -ssh anshika@192.168.72.148
 Invalid User Login Attempt
 
 An SSH login attempt was made using a non-existent username to simulate unauthorized access attempts.
 
-Command used:
+## Command used:
 
 ssh fakeuser@192.168.72.148
 
-Wazuh generated alerts such as:
+## Wazuh generated alerts such as:
 
 -sshd: Attempt to login using a non-existent user
 -PAM: User login failed
@@ -69,11 +70,11 @@ Wazuh generated alerts such as:
 
 Failed sudo authentication attempts were simulated on the Ubuntu server by intentionally entering the wrong password multiple times.
 
-Command used:
+## Command used:
 
 sudo apt update
 
-Wazuh generated alerts such as:
+## Wazuh generated alerts such as:
 
 -Failed attempt to run sudo
 -Three failed attempts to run sudo
@@ -92,7 +93,7 @@ The following security events were detected in the Wazuh dashboard:
 
 Several custom visualizations were created in the Wazuh Dashboard to improve alert triage and monitoring efficiency.
 
-The dashboard includes:
+# The dashboard includes:
 
 -Pie chart showing authentication attack categories
 -Bar chart showing authentication events over time
