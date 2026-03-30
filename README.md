@@ -131,6 +131,9 @@ By creating custom visualizations and monitoring multiple authentication attack 
 
 ![Wazuh Alert](screenshots/wazuh-alert.png)
 
+### Authentication Pie Chart
+![Authentication Pie Chart](screenshots/authentication-pie-chart.png)
+
 
 ## Threat Detection Mapping (MITRE ATT&CK)
 
