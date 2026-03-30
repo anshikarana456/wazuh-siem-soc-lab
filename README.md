@@ -1,3 +1,4 @@
+# WAZUH SIEM SOC LAB
 This project demonstrates the deployment of a Wazuh SIEM environment and detection of simulated cyber attacks.
 
 The lab includes:
@@ -139,8 +140,8 @@ By creating custom visualizations and monitoring multiple authentication attack 
 ![Authentication Pie Chart](screenshots/authentication-pie-chart.png)
 
  ### Combined Dashboard
- ![Combined Dashboard Part 1](screenshots/Combined-Dashboard-1.png)
- ![Combined Dashboard Part 2](screenshots/Combined-Dashboard-2.png)
+ ![Combined Dashboard](screenshots/Combined-Dashboard-1.png)
+ 
 
 
 ## Threat Detection Mapping (MITRE ATT&CK)
