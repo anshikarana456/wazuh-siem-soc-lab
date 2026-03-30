@@ -129,7 +129,7 @@ By creating custom visualizations and monitoring multiple authentication attack 
 
 ### Wazuh Alert Detection
 
-![Wazuh Alert](screenshots/wazuh-alert.png)
+![Wazuh Alert](screenshots/Wazuh-alert.png)
 
 ### Authentication Pie Chart
 ![Authentication Pie Chart](screenshots/authentication-pie-chart.png)
