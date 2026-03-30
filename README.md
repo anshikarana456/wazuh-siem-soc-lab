@@ -138,6 +138,10 @@ By creating custom visualizations and monitoring multiple authentication attack 
 ### Authentication Pie Chart
 ![Authentication Pie Chart](screenshots/authentication-pie-chart.png)
 
+ ### Combined Dashboard
+ ![Combined Dashboard Part 1](screenshots/Combined-Dashboard-1.png)
+ ![Combined Dashboard Part 2](screenshots/Combined-Dashboard-2.png)
+
 
 ## Threat Detection Mapping (MITRE ATT&CK)
 
