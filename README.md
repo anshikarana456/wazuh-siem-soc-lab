@@ -131,6 +131,10 @@ By creating custom visualizations and monitoring multiple authentication attack 
 
 ![Wazuh Alert](screenshots/Wazuh-alert.png)
 
+### Successful SSH Login
+
+![Successful SSH Login](screenshots/successful-ssh-login.png)
+
 ### Authentication Pie Chart
 ![Authentication Pie Chart](screenshots/authentication-pie-chart.png)
 
